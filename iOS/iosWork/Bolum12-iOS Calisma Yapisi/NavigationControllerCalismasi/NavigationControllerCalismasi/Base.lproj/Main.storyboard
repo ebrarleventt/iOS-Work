@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kjr-fj-QVW">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NavigationControllerCalismasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" prompt="Aciklama" id="3hO-4m-vqR">
+                        <nil key="title"/>
+                        <barButtonItem key="backBarButtonItem" title="Geri" id="bck-pP-L2E"/>
+                        <leftBarButtonItems>
+                            <barButtonItem title="Item" id="w4A-44-mW4"/>
+                            <barButtonItem title="Item" image="navIcon" id="vKN-WL-B62">
+                                <color key="tintColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="kalpTikla:" destination="BYZ-38-t0r" id="sP1-QA-fvQ"/>
+                                </connections>
+                            </barButtonItem>
+                        </leftBarButtonItems>
+                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="fEo-zB-afL">
+                            <rect key="frame" x="131" y="40" width="131" height="32"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <segments>
+                                <segment title="First"/>
+                                <segment title="Second"/>
+                            </segments>
+                            <color key="selectedSegmentTintColor" systemColor="linkColor"/>
+                            <connections>
+                                <action selector="segmentTiklandi:" destination="BYZ-38-t0r" eventType="valueChanged" id="bpc-ag-HFR"/>
+                            </connections>
+                        </segmentedControl>
+                        <rightBarButtonItems>
+                            <barButtonItem systemItem="play" id="aGb-dP-SbI">
+                                <color key="tintColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="playTikla:" destination="BYZ-38-t0r" id="fZV-LA-KbZ"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Ekle" id="5bL-dr-3En">
+                                <color key="tintColor" systemColor="systemGreenColor"/>
+                                <connections>
+                                    <segue destination="I8A-mi-Gc1" kind="show" id="5Kn-OP-4fD"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="976.33587786259534" y="-27.464788732394368"/>
+        </scene>
+        <!--2. Sayfa-->
+        <scene sceneID="DHV-L2-Tcd">
+            <objects>
+                <viewController id="I8A-mi-Gc1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pdw-I6-Kwz">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Fme-aC-jsb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="2. Sayfa" prompt="Aciklama 2" id="qeD-iq-tdC">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="Uzl-fu-c4Y"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fmi-60-6D5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1674" y="-27"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="TYJ-c8-yER">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kjr-fj-QVW" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="14i-EL-nFC">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="CQG-Bf-BdL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hIT-jt-YNw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="224" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="navIcon" width="24" height="24"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

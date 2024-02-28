@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2711DFA52B3C3E6D00D543B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2711DFA42B3C3E6D00D543B7 /* AppDelegate.swift */; };
+		2711DFA72B3C3E6D00D543B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2711DFA62B3C3E6D00D543B7 /* SceneDelegate.swift */; };
+		2711DFA92B3C3E6D00D543B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2711DFA82B3C3E6D00D543B7 /* ViewController.swift */; };
+		2711DFAC2B3C3E6D00D543B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2711DFAA2B3C3E6D00D543B7 /* Main.storyboard */; };
+		2711DFAE2B3C3E6E00D543B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2711DFAD2B3C3E6E00D543B7 /* Assets.xcassets */; };
+		2711DFB12B3C3E6E00D543B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2711DFAF2B3C3E6E00D543B7 /* LaunchScreen.storyboard */; };
+		2711DFBC2B3C3E6E00D543B7 /* Coklu_Ekran_Destegi_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2711DFBB2B3C3E6E00D543B7 /* Coklu_Ekran_Destegi_AppTests.swift */; };
+		2711DFC62B3C3E6E00D543B7 /* Coklu_Ekran_Destegi_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2711DFC52B3C3E6E00D543B7 /* Coklu_Ekran_Destegi_AppUITests.swift */; };
+		2711DFC82B3C3E6E00D543B7 /* Coklu_Ekran_Destegi_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2711DFC72B3C3E6E00D543B7 /* Coklu_Ekran_Destegi_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2711DFB82B3C3E6E00D543B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2711DF992B3C3E6D00D543B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2711DFA02B3C3E6D00D543B7;
+			remoteInfo = "Coklu Ekran Destegi App";
+		};
+		2711DFC22B3C3E6E00D543B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2711DF992B3C3E6D00D543B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2711DFA02B3C3E6D00D543B7;
+			remoteInfo = "Coklu Ekran Destegi App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2711DFA12B3C3E6D00D543B7 /* Coklu Ekran Destegi App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coklu Ekran Destegi App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2711DFA42B3C3E6D00D543B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2711DFA62B3C3E6D00D543B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2711DFA82B3C3E6D00D543B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2711DFAB2B3C3E6D00D543B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2711DFAD2B3C3E6E00D543B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2711DFB02B3C3E6E00D543B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2711DFB22B3C3E6E00D543B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2711DFB72B3C3E6E00D543B7 /* Coklu Ekran Destegi AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coklu Ekran Destegi AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2711DFBB2B3C3E6E00D543B7 /* Coklu_Ekran_Destegi_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coklu_Ekran_Destegi_AppTests.swift; sourceTree = "<group>"; };
+		2711DFC12B3C3E6E00D543B7 /* Coklu Ekran Destegi AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coklu Ekran Destegi AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2711DFC52B3C3E6E00D543B7 /* Coklu_Ekran_Destegi_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coklu_Ekran_Destegi_AppUITests.swift; sourceTree = "<group>"; };
+		2711DFC72B3C3E6E00D543B7 /* Coklu_Ekran_Destegi_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coklu_Ekran_Destegi_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2711DF9E2B3C3E6D00D543B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2711DFB42B3C3E6E00D543B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2711DFBE2B3C3E6E00D543B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2711DF982B3C3E6D00D543B7 = {
+			isa = PBXGroup;
+			children = (
+				2711DFA32B3C3E6D00D543B7 /* Coklu Ekran Destegi App */,
+				2711DFBA2B3C3E6E00D543B7 /* Coklu Ekran Destegi AppTests */,
+				2711DFC42B3C3E6E00D543B7 /* Coklu Ekran Destegi AppUITests */,
+				2711DFA22B3C3E6D00D543B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2711DFA22B3C3E6D00D543B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2711DFA12B3C3E6D00D543B7 /* Coklu Ekran Destegi App.app */,
+				2711DFB72B3C3E6E00D543B7 /* Coklu Ekran Destegi AppTests.xctest */,
+				2711DFC12B3C3E6E00D543B7 /* Coklu Ekran Destegi AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2711DFA32B3C3E6D00D543B7 /* Coklu Ekran Destegi App */ = {
+			isa = PBXGroup;
+			children = (
+				2711DFA42B3C3E6D00D543B7 /* AppDelegate.swift */,
+				2711DFA62B3C3E6D00D543B7 /* SceneDelegate.swift */,
+				2711DFA82B3C3E6D00D543B7 /* ViewController.swift */,
+				2711DFAA2B3C3E6D00D543B7 /* Main.storyboard */,
+				2711DFAD2B3C3E6E00D543B7 /* Assets.xcassets */,
+				2711DFAF2B3C3E6E00D543B7 /* LaunchScreen.storyboard */,
+				2711DFB22B3C3E6E00D543B7 /* Info.plist */,
+			);
+			path = "Coklu Ekran Destegi App";
+			sourceTree = "<group>";
+		};
+		2711DFBA2B3C3E6E00D543B7 /* Coklu Ekran Destegi AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2711DFBB2B3C3E6E00D543B7 /* Coklu_Ekran_Destegi_AppTests.swift */,
+			);
+			path = "Coklu Ekran Destegi AppTests";
+			sourceTree = "<group>";
+		};
+		2711DFC42B3C3E6E00D543B7 /* Coklu Ekran Destegi AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2711DFC52B3C3E6E00D543B7 /* Coklu_Ekran_Destegi_AppUITests.swift */,
+				2711DFC72B3C3E6E00D543B7 /* Coklu_Ekran_Destegi_AppUITestsLaunchTests.swift */,
+			);
+			path = "Coklu Ekran Destegi AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2711DFA02B3C3E6D00D543B7 /* Coklu Ekran Destegi App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2711DFCB2B3C3E6E00D543B7 /* Build configuration list for PBXNativeTarget "Coklu Ekran Destegi App" */;
+			buildPhases = (
+				2711DF9D2B3C3E6D00D543B7 /* Sources */,
+				2711DF9E2B3C3E6D00D543B7 /* Frameworks */,
+				2711DF9F2B3C3E6D00D543B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coklu Ekran Destegi App";
+			productName = "Coklu Ekran Destegi App";
+			productReference = 2711DFA12B3C3E6D00D543B7 /* Coklu Ekran Destegi App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2711DFB62B3C3E6E00D543B7 /* Coklu Ekran Destegi AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2711DFCE2B3C3E6E00D543B7 /* Build configuration list for PBXNativeTarget "Coklu Ekran Destegi AppTests" */;
+			buildPhases = (
+				2711DFB32B3C3E6E00D543B7 /* Sources */,
+				2711DFB42B3C3E6E00D543B7 /* Frameworks */,
+				2711DFB52B3C3E6E00D543B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2711DFB92B3C3E6E00D543B7 /* PBXTargetDependency */,
+			);
+			name = "Coklu Ekran Destegi AppTests";
+			productName = "Coklu Ekran Destegi AppTests";
+			productReference = 2711DFB72B3C3E6E00D543B7 /* Coklu Ekran Destegi AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2711DFC02B3C3E6E00D543B7 /* Coklu Ekran Destegi AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2711DFD12B3C3E6E00D543B7 /* Build configuration list for PBXNativeTarget "Coklu Ekran Destegi AppUITests" */;
+			buildPhases = (
+				2711DFBD2B3C3E6E00D543B7 /* Sources */,
+				2711DFBE2B3C3E6E00D543B7 /* Frameworks */,
+				2711DFBF2B3C3E6E00D543B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2711DFC32B3C3E6E00D543B7 /* PBXTargetDependency */,
+			);
+			name = "Coklu Ekran Destegi AppUITests";
+			productName = "Coklu Ekran Destegi AppUITests";
+			productReference = 2711DFC12B3C3E6E00D543B7 /* Coklu Ekran Destegi AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2711DF992B3C3E6D00D543B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2711DFA02B3C3E6D00D543B7 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					2711DFB62B3C3E6E00D543B7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2711DFA02B3C3E6D00D543B7;
+					};
+					2711DFC02B3C3E6E00D543B7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2711DFA02B3C3E6D00D543B7;
+					};
+				};
+			};
+			buildConfigurationList = 2711DF9C2B3C3E6D00D543B7 /* Build configuration list for PBXProject "Coklu Ekran Destegi App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2711DF982B3C3E6D00D543B7;
+			productRefGroup = 2711DFA22B3C3E6D00D543B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2711DFA02B3C3E6D00D543B7 /* Coklu Ekran Destegi App */,
+				2711DFB62B3C3E6E00D543B7 /* Coklu Ekran Destegi AppTests */,
+				2711DFC02B3C3E6E00D543B7 /* Coklu Ekran Destegi AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2711DF9F2B3C3E6D00D543B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2711DFB12B3C3E6E00D543B7 /* LaunchScreen.storyboard in Resources */,
+				2711DFAE2B3C3E6E00D543B7 /* Assets.xcassets in Resources */,
+				2711DFAC2B3C3E6D00D543B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2711DFB52B3C3E6E00D543B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2711DFBF2B3C3E6E00D543B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2711DF9D2B3C3E6D00D543B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2711DFA92B3C3E6D00D543B7 /* ViewController.swift in Sources */,
+				2711DFA52B3C3E6D00D543B7 /* AppDelegate.swift in Sources */,
+				2711DFA72B3C3E6D00D543B7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2711DFB32B3C3E6E00D543B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2711DFBC2B3C3E6E00D543B7 /* Coklu_Ekran_Destegi_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2711DFBD2B3C3E6E00D543B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2711DFC62B3C3E6E00D543B7 /* Coklu_Ekran_Destegi_AppUITests.swift in Sources */,
+				2711DFC82B3C3E6E00D543B7 /* Coklu_Ekran_Destegi_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2711DFB92B3C3E6E00D543B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2711DFA02B3C3E6D00D543B7 /* Coklu Ekran Destegi App */;
+			targetProxy = 2711DFB82B3C3E6E00D543B7 /* PBXContainerItemProxy */;
+		};
+		2711DFC32B3C3E6E00D543B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2711DFA02B3C3E6D00D543B7 /* Coklu Ekran Destegi App */;
+			targetProxy = 2711DFC22B3C3E6E00D543B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2711DFAA2B3C3E6D00D543B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2711DFAB2B3C3E6D00D543B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2711DFAF2B3C3E6E00D543B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2711DFB02B3C3E6E00D543B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2711DFC92B3C3E6E00D543B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2711DFCA2B3C3E6E00D543B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2711DFCC2B3C3E6E00D543B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Coklu Ekran Destegi App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Coklu-Ekran-Destegi-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2711DFCD2B3C3E6E00D543B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Coklu Ekran Destegi App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Coklu-Ekran-Destegi-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2711DFCF2B3C3E6E00D543B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Coklu-Ekran-Destegi-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coklu Ekran Destegi App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coklu Ekran Destegi App";
+			};
+			name = Debug;
+		};
+		2711DFD02B3C3E6E00D543B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Coklu-Ekran-Destegi-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coklu Ekran Destegi App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coklu Ekran Destegi App";
+			};
+			name = Release;
+		};
+		2711DFD22B3C3E6E00D543B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Coklu-Ekran-Destegi-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Coklu Ekran Destegi App";
+			};
+			name = Debug;
+		};
+		2711DFD32B3C3E6E00D543B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Coklu-Ekran-Destegi-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Coklu Ekran Destegi App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2711DF9C2B3C3E6D00D543B7 /* Build configuration list for PBXProject "Coklu Ekran Destegi App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2711DFC92B3C3E6E00D543B7 /* Debug */,
+				2711DFCA2B3C3E6E00D543B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2711DFCB2B3C3E6E00D543B7 /* Build configuration list for PBXNativeTarget "Coklu Ekran Destegi App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2711DFCC2B3C3E6E00D543B7 /* Debug */,
+				2711DFCD2B3C3E6E00D543B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2711DFCE2B3C3E6E00D543B7 /* Build configuration list for PBXNativeTarget "Coklu Ekran Destegi AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2711DFCF2B3C3E6E00D543B7 /* Debug */,
+				2711DFD02B3C3E6E00D543B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2711DFD12B3C3E6E00D543B7 /* Build configuration list for PBXNativeTarget "Coklu Ekran Destegi AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2711DFD22B3C3E6E00D543B7 /* Debug */,
+				2711DFD32B3C3E6E00D543B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2711DF992B3C3E6D00D543B7 /* Project object */;
+}

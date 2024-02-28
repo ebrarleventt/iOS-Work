@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IlhamVerApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stevejobs" translatesAutoresizingMaskIntoConstraints="NO" id="0SG-Fs-c63">
+                                <rect key="frame" x="146.66666666666666" y="104" width="100" height="100"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Steve Jobs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mAJ-Be-S7v">
+                                <rect key="frame" x="154" y="224" width="85" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dünyayı değiştirebileceğini düşünecek kadar çılgın olan insanlar, dünyayı değiştirebilirler" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LtE-5I-ToM">
+                                <rect key="frame" x="5" y="405.66666666666669" width="383" height="40.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yaQ-vj-y8G">
+                                <rect key="frame" x="10" y="747.33333333333337" width="373" height="60.666666666666629"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button">
+                                    <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yaQ-vj-y8G" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.08" id="3ts-UH-Ile"/>
+                            <constraint firstItem="LtE-5I-ToM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="4Do-9b-mse"/>
+                            <constraint firstItem="mAJ-Be-S7v" firstAttribute="top" secondItem="0SG-Fs-c63" secondAttribute="bottom" constant="20" id="6cl-YJ-poN"/>
+                            <constraint firstItem="LtE-5I-ToM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8Lr-ac-Hfq"/>
+                            <constraint firstItem="LtE-5I-ToM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="92R-Kx-lBe"/>
+                            <constraint firstItem="yaQ-vj-y8G" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Biq-zf-Eq0"/>
+                            <constraint firstItem="LtE-5I-ToM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="HZM-Tn-bWy"/>
+                            <constraint firstItem="LtE-5I-ToM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="JPB-zM-pWO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LtE-5I-ToM" secondAttribute="trailing" constant="5" id="KaQ-lm-ki9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LtE-5I-ToM" secondAttribute="trailing" constant="5" id="Olz-Zs-F6S"/>
+                            <constraint firstItem="LtE-5I-ToM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="PgA-sd-z3b"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yaQ-vj-y8G" secondAttribute="bottom" constant="10" id="QKh-0w-eZh"/>
+                            <constraint firstItem="LtE-5I-ToM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RHY-RM-KVr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LtE-5I-ToM" secondAttribute="trailing" constant="5" id="XoV-xQ-QCr"/>
+                            <constraint firstItem="mAJ-Be-S7v" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gYM-xw-4dw"/>
+                            <constraint firstItem="LtE-5I-ToM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jTb-Nz-vAa"/>
+                            <constraint firstItem="LtE-5I-ToM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="l2K-cI-QjT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LtE-5I-ToM" secondAttribute="trailing" constant="5" id="mcA-n6-TaZ"/>
+                            <constraint firstItem="0SG-Fs-c63" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="njW-ON-JU2"/>
+                            <constraint firstItem="LtE-5I-ToM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pVu-ac-0Rw"/>
+                            <constraint firstItem="0SG-Fs-c63" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rhA-Hi-Oc0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yaQ-vj-y8G" secondAttribute="trailing" constant="10" id="szQ-b0-6Iu"/>
+                            <constraint firstItem="LtE-5I-ToM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wzK-ae-Sc5"/>
+                            <constraint firstItem="LtE-5I-ToM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="xus-hY-Tb2"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-54" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="stevejobs" width="100" height="100.33333587646484"/>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

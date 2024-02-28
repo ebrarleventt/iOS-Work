@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4OI-Q4-Rfb">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Anasayfa-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TabBarControllerOzellestirme" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anasayfa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ul-kQ-Wb7">
+                                <rect key="frame" x="126.66666666666669" y="351" width="140" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7ul-kQ-Wb7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="292" id="GL9-P8-0wA"/>
+                            <constraint firstItem="7ul-kQ-Wb7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SzN-OP-LLs"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Anasayfa" image="homekit" catalog="system" id="wFy-sP-Bf0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="422" y="-239"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="79X-Q5-RDd">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="4OI-Q4-Rfb" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="NFr-Zc-kvs">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="nMv-rv-FPG"/>
+                        <segue destination="Qzt-lT-8S5" kind="relationship" relationship="viewControllers" id="C1N-ps-bS7"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bR3-Ac-do9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-360" y="-62"/>
+        </scene>
+        <!--Ayarlar-->
+        <scene sceneID="mKx-29-1G8">
+            <objects>
+                <viewController id="Qzt-lT-8S5" customClass="AyarlarVC" customModule="TabBarControllerOzellestirme" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qv7-4R-i3h">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ayarlar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ARH-Sx-GlL">
+                                <rect key="frame" x="144" y="351" width="105" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="54F-gu-4AZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ARH-Sx-GlL" firstAttribute="centerX" secondItem="Qv7-4R-i3h" secondAttribute="centerX" id="AMO-Ib-PPs"/>
+                            <constraint firstItem="ARH-Sx-GlL" firstAttribute="top" secondItem="54F-gu-4AZ" secondAttribute="top" constant="292" id="xwi-vt-R4x"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Ayarlar" image="gear" catalog="system" id="Zff-Qs-fKG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KIU-R0-JWO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="414" y="435"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="gear" catalog="system" width="128" height="122"/>
+        <image name="homekit" catalog="system" width="128" height="104"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

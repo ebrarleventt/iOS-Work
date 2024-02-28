@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SliderStepper" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Slider:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="swH-mK-dfC">
+                                <rect key="frame" x="156" y="159" width="81" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="25" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="HjK-og-L57">
+                                <rect key="frame" x="18" y="225" width="357" height="31"/>
+                                <color key="minimumTrackTintColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="sliderDegisimControl:" destination="BYZ-38-t0r" eventType="valueChanged" id="b2J-sD-IjJ"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stepper:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgO-VY-Jgg">
+                                <rect key="frame" x="142" y="385" width="109" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" stepValue="2" translatesAutoresizingMaskIntoConstraints="NO" id="vce-av-yzX">
+                                <rect key="frame" x="149.66666666666666" y="451" width="94" height="32"/>
+                                <connections>
+                                    <action selector="stepperDegisimControl:" destination="BYZ-38-t0r" eventType="valueChanged" id="hNL-rM-pdA"/>
+                                </connections>
+                            </stepper>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IEg-Mi-JUV">
+                                <rect key="frame" x="141.33333333333334" y="623" width="110.66666666666666" height="50"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Goster">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="tikla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QnA-iN-tKE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="HjK-og-L57" firstAttribute="top" secondItem="swH-mK-dfC" secondAttribute="bottom" constant="30" id="8dA-2d-Ejp"/>
+                            <constraint firstItem="IEg-Mi-JUV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DOj-z5-RZa"/>
+                            <constraint firstItem="vce-av-yzX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FVA-pZ-4ve"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HjK-og-L57" secondAttribute="trailing" constant="20" id="Grl-Xi-R7e"/>
+                            <constraint firstItem="jgO-VY-Jgg" firstAttribute="top" secondItem="HjK-og-L57" secondAttribute="bottom" constant="130" id="L3n-Tp-DVa"/>
+                            <constraint firstItem="HjK-og-L57" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pc3-hy-Yhg"/>
+                            <constraint firstItem="swH-mK-dfC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SB4-Oe-MqU"/>
+                            <constraint firstItem="HjK-og-L57" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ZAl-Rf-HMh"/>
+                            <constraint firstItem="vce-av-yzX" firstAttribute="top" secondItem="jgO-VY-Jgg" secondAttribute="bottom" constant="30" id="m3t-rl-2CX"/>
+                            <constraint firstItem="IEg-Mi-JUV" firstAttribute="top" secondItem="vce-av-yzX" secondAttribute="bottom" constant="140" id="mDl-Ic-U8A"/>
+                            <constraint firstItem="swH-mK-dfC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="obl-gP-pX9"/>
+                            <constraint firstItem="jgO-VY-Jgg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tUp-Oo-noT"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="slider" destination="HjK-og-L57" id="lg0-Wn-yPJ"/>
+                        <outlet property="sliderLabel" destination="swH-mK-dfC" id="3f1-Nj-kf4"/>
+                        <outlet property="stepper" destination="vce-av-yzX" id="BKj-Kb-hnH"/>
+                        <outlet property="stepperLabel" destination="jgO-VY-Jgg" id="iOl-KT-0Ac"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="72.51908396946564" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

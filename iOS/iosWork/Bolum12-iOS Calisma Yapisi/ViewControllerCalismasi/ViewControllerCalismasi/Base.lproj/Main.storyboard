@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <accessibilityOverrides/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Anasayfa-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="anasayfa" title="Anasayfa" id="BYZ-38-t0r" customClass="ViewController" customModule="ViewControllerCalismasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iIX-sR-lxa">
+                                <rect key="frame" x="175.66666666666666" y="158" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sqM-Rx-N0X">
+                                <rect key="frame" x="159" y="316" width="75" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="tiklan:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F6N-Do-5AZ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sx7-GX-dSa">
+                                <rect key="frame" x="175.66666666666666" y="545" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H8h-Rg-zzp">
+                                <rect key="frame" x="175.66666666666666" y="618" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="iIX-sR-lxa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="99" id="UjO-ZY-Vbi"/>
+                            <constraint firstItem="Sx7-GX-dSa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ddT-3Y-m0Q"/>
+                            <constraint firstItem="sqM-Rx-N0X" firstAttribute="top" secondItem="iIX-sR-lxa" secondAttribute="bottom" constant="137" id="e7a-gZ-x8b"/>
+                            <constraint firstItem="H8h-Rg-zzp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gSI-93-RGd"/>
+                            <constraint firstItem="iIX-sR-lxa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kvm-C6-Lf3"/>
+                            <constraint firstItem="Sx7-GX-dSa" firstAttribute="top" secondItem="sqM-Rx-N0X" secondAttribute="bottom" constant="194" id="vJh-g2-eD3"/>
+                            <constraint firstItem="sqM-Rx-N0X" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vYt-YU-7Rj"/>
+                            <constraint firstItem="H8h-Rg-zzp" firstAttribute="top" secondItem="Sx7-GX-dSa" secondAttribute="bottom" constant="52" id="yim-bO-hXb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="etiket" destination="iIX-sR-lxa" id="CCZ-TI-g1e"/>
+                        <outletCollection property="etiketler" destination="Sx7-GX-dSa" collectionClass="NSMutableArray" id="9J7-5Y-i7o"/>
+                        <outletCollection property="etiketler" destination="H8h-Rg-zzp" collectionClass="NSMutableArray" id="Kxh-cb-mI6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="129" y="-27"/>
+        </scene>
+        <!--Ikinci Sayfa-->
+        <scene sceneID="OEJ-Q8-ybD">
+            <objects>
+                <viewController title="Ikinci Sayfa" id="cqe-42-L7c" customClass="SecondVC" customModule="ViewControllerCalismasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gd2-d4-TI4">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Rfj-jP-HVM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="psW-KE-FFi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="830" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27E9B25F2B3CAF90009F65FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E9B25E2B3CAF90009F65FA /* AppDelegate.swift */; };
+		27E9B2612B3CAF90009F65FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E9B2602B3CAF90009F65FA /* SceneDelegate.swift */; };
+		27E9B2632B3CAF90009F65FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E9B2622B3CAF90009F65FA /* ViewController.swift */; };
+		27E9B2662B3CAF90009F65FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E9B2642B3CAF90009F65FA /* Main.storyboard */; };
+		27E9B2682B3CAF91009F65FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E9B2672B3CAF91009F65FA /* Assets.xcassets */; };
+		27E9B26B2B3CAF91009F65FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E9B2692B3CAF91009F65FA /* LaunchScreen.storyboard */; };
+		27E9B2762B3CAF91009F65FA /* YemekTarifiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E9B2752B3CAF91009F65FA /* YemekTarifiAppTests.swift */; };
+		27E9B2802B3CAF91009F65FA /* YemekTarifiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E9B27F2B3CAF91009F65FA /* YemekTarifiAppUITests.swift */; };
+		27E9B2822B3CAF91009F65FA /* YemekTarifiAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E9B2812B3CAF91009F65FA /* YemekTarifiAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27E9B2722B3CAF91009F65FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27E9B2532B3CAF90009F65FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27E9B25A2B3CAF90009F65FA;
+			remoteInfo = YemekTarifiApp;
+		};
+		27E9B27C2B3CAF91009F65FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27E9B2532B3CAF90009F65FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27E9B25A2B3CAF90009F65FA;
+			remoteInfo = YemekTarifiApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27E9B25B2B3CAF90009F65FA /* YemekTarifiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YemekTarifiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E9B25E2B3CAF90009F65FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27E9B2602B3CAF90009F65FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		27E9B2622B3CAF90009F65FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27E9B2652B3CAF90009F65FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27E9B2672B3CAF91009F65FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27E9B26A2B3CAF91009F65FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27E9B26C2B3CAF91009F65FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27E9B2712B3CAF91009F65FA /* YemekTarifiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YemekTarifiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E9B2752B3CAF91009F65FA /* YemekTarifiAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekTarifiAppTests.swift; sourceTree = "<group>"; };
+		27E9B27B2B3CAF91009F65FA /* YemekTarifiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YemekTarifiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E9B27F2B3CAF91009F65FA /* YemekTarifiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekTarifiAppUITests.swift; sourceTree = "<group>"; };
+		27E9B2812B3CAF91009F65FA /* YemekTarifiAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekTarifiAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27E9B2582B3CAF90009F65FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E9B26E2B3CAF91009F65FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E9B2782B3CAF91009F65FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27E9B2522B3CAF90009F65FA = {
+			isa = PBXGroup;
+			children = (
+				27E9B25D2B3CAF90009F65FA /* YemekTarifiApp */,
+				27E9B2742B3CAF91009F65FA /* YemekTarifiAppTests */,
+				27E9B27E2B3CAF91009F65FA /* YemekTarifiAppUITests */,
+				27E9B25C2B3CAF90009F65FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27E9B25C2B3CAF90009F65FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27E9B25B2B3CAF90009F65FA /* YemekTarifiApp.app */,
+				27E9B2712B3CAF91009F65FA /* YemekTarifiAppTests.xctest */,
+				27E9B27B2B3CAF91009F65FA /* YemekTarifiAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27E9B25D2B3CAF90009F65FA /* YemekTarifiApp */ = {
+			isa = PBXGroup;
+			children = (
+				27E9B25E2B3CAF90009F65FA /* AppDelegate.swift */,
+				27E9B2602B3CAF90009F65FA /* SceneDelegate.swift */,
+				27E9B2622B3CAF90009F65FA /* ViewController.swift */,
+				27E9B2642B3CAF90009F65FA /* Main.storyboard */,
+				27E9B2672B3CAF91009F65FA /* Assets.xcassets */,
+				27E9B2692B3CAF91009F65FA /* LaunchScreen.storyboard */,
+				27E9B26C2B3CAF91009F65FA /* Info.plist */,
+			);
+			path = YemekTarifiApp;
+			sourceTree = "<group>";
+		};
+		27E9B2742B3CAF91009F65FA /* YemekTarifiAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				27E9B2752B3CAF91009F65FA /* YemekTarifiAppTests.swift */,
+			);
+			path = YemekTarifiAppTests;
+			sourceTree = "<group>";
+		};
+		27E9B27E2B3CAF91009F65FA /* YemekTarifiAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27E9B27F2B3CAF91009F65FA /* YemekTarifiAppUITests.swift */,
+				27E9B2812B3CAF91009F65FA /* YemekTarifiAppUITestsLaunchTests.swift */,
+			);
+			path = YemekTarifiAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27E9B25A2B3CAF90009F65FA /* YemekTarifiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27E9B2852B3CAF91009F65FA /* Build configuration list for PBXNativeTarget "YemekTarifiApp" */;
+			buildPhases = (
+				27E9B2572B3CAF90009F65FA /* Sources */,
+				27E9B2582B3CAF90009F65FA /* Frameworks */,
+				27E9B2592B3CAF90009F65FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YemekTarifiApp;
+			productName = YemekTarifiApp;
+			productReference = 27E9B25B2B3CAF90009F65FA /* YemekTarifiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27E9B2702B3CAF91009F65FA /* YemekTarifiAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27E9B2882B3CAF91009F65FA /* Build configuration list for PBXNativeTarget "YemekTarifiAppTests" */;
+			buildPhases = (
+				27E9B26D2B3CAF91009F65FA /* Sources */,
+				27E9B26E2B3CAF91009F65FA /* Frameworks */,
+				27E9B26F2B3CAF91009F65FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27E9B2732B3CAF91009F65FA /* PBXTargetDependency */,
+			);
+			name = YemekTarifiAppTests;
+			productName = YemekTarifiAppTests;
+			productReference = 27E9B2712B3CAF91009F65FA /* YemekTarifiAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27E9B27A2B3CAF91009F65FA /* YemekTarifiAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27E9B28B2B3CAF91009F65FA /* Build configuration list for PBXNativeTarget "YemekTarifiAppUITests" */;
+			buildPhases = (
+				27E9B2772B3CAF91009F65FA /* Sources */,
+				27E9B2782B3CAF91009F65FA /* Frameworks */,
+				27E9B2792B3CAF91009F65FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27E9B27D2B3CAF91009F65FA /* PBXTargetDependency */,
+			);
+			name = YemekTarifiAppUITests;
+			productName = YemekTarifiAppUITests;
+			productReference = 27E9B27B2B3CAF91009F65FA /* YemekTarifiAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27E9B2532B3CAF90009F65FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					27E9B25A2B3CAF90009F65FA = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					27E9B2702B3CAF91009F65FA = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 27E9B25A2B3CAF90009F65FA;
+					};
+					27E9B27A2B3CAF91009F65FA = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 27E9B25A2B3CAF90009F65FA;
+					};
+				};
+			};
+			buildConfigurationList = 27E9B2562B3CAF90009F65FA /* Build configuration list for PBXProject "YemekTarifiApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27E9B2522B3CAF90009F65FA;
+			productRefGroup = 27E9B25C2B3CAF90009F65FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27E9B25A2B3CAF90009F65FA /* YemekTarifiApp */,
+				27E9B2702B3CAF91009F65FA /* YemekTarifiAppTests */,
+				27E9B27A2B3CAF91009F65FA /* YemekTarifiAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27E9B2592B3CAF90009F65FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E9B26B2B3CAF91009F65FA /* LaunchScreen.storyboard in Resources */,
+				27E9B2682B3CAF91009F65FA /* Assets.xcassets in Resources */,
+				27E9B2662B3CAF90009F65FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E9B26F2B3CAF91009F65FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E9B2792B3CAF91009F65FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27E9B2572B3CAF90009F65FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E9B2632B3CAF90009F65FA /* ViewController.swift in Sources */,
+				27E9B25F2B3CAF90009F65FA /* AppDelegate.swift in Sources */,
+				27E9B2612B3CAF90009F65FA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E9B26D2B3CAF91009F65FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E9B2762B3CAF91009F65FA /* YemekTarifiAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E9B2772B3CAF91009F65FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E9B2802B3CAF91009F65FA /* YemekTarifiAppUITests.swift in Sources */,
+				27E9B2822B3CAF91009F65FA /* YemekTarifiAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27E9B2732B3CAF91009F65FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27E9B25A2B3CAF90009F65FA /* YemekTarifiApp */;
+			targetProxy = 27E9B2722B3CAF91009F65FA /* PBXContainerItemProxy */;
+		};
+		27E9B27D2B3CAF91009F65FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27E9B25A2B3CAF90009F65FA /* YemekTarifiApp */;
+			targetProxy = 27E9B27C2B3CAF91009F65FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27E9B2642B3CAF90009F65FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27E9B2652B3CAF90009F65FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27E9B2692B3CAF91009F65FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27E9B26A2B3CAF91009F65FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27E9B2832B3CAF91009F65FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27E9B2842B3CAF91009F65FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27E9B2862B3CAF91009F65FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YemekTarifiApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.YemekTarifiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27E9B2872B3CAF91009F65FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YemekTarifiApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.YemekTarifiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		27E9B2892B3CAF91009F65FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.YemekTarifiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YemekTarifiApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YemekTarifiApp";
+			};
+			name = Debug;
+		};
+		27E9B28A2B3CAF91009F65FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.YemekTarifiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YemekTarifiApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YemekTarifiApp";
+			};
+			name = Release;
+		};
+		27E9B28C2B3CAF91009F65FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.YemekTarifiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YemekTarifiApp;
+			};
+			name = Debug;
+		};
+		27E9B28D2B3CAF91009F65FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.YemekTarifiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YemekTarifiApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27E9B2562B3CAF90009F65FA /* Build configuration list for PBXProject "YemekTarifiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E9B2832B3CAF91009F65FA /* Debug */,
+				27E9B2842B3CAF91009F65FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27E9B2852B3CAF91009F65FA /* Build configuration list for PBXNativeTarget "YemekTarifiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E9B2862B3CAF91009F65FA /* Debug */,
+				27E9B2872B3CAF91009F65FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27E9B2882B3CAF91009F65FA /* Build configuration list for PBXNativeTarget "YemekTarifiAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E9B2892B3CAF91009F65FA /* Debug */,
+				27E9B28A2B3CAF91009F65FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27E9B28B2B3CAF91009F65FA /* Build configuration list for PBXNativeTarget "YemekTarifiAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E9B28C2B3CAF91009F65FA /* Debug */,
+				27E9B28D2B3CAF91009F65FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27E9B2532B3CAF90009F65FA /* Project object */;
+}

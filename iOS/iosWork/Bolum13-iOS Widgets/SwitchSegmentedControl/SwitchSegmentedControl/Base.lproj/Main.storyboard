@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwitchSegmentedControl" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zuQ-h8-54b">
+                                <rect key="frame" x="172" y="205" width="51" height="31"/>
+                                <color key="onTintColor" red="0.30197810368693062" green="0.96901684999465942" blue="0.00018629565681936588" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="thumbTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="switchKonumDegistir:" destination="BYZ-38-t0r" eventType="valueChanged" id="CHT-tC-tLD"/>
+                                </connections>
+                            </switch>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="oDa-vg-Is6">
+                                <rect key="frame" x="136" y="371" width="121" height="32"/>
+                                <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                <segments>
+                                    <segment title="AÇ"/>
+                                    <segment title="KAPAT"/>
+                                </segments>
+                                <color key="tintColor" systemColor="tintColor"/>
+                                <color key="selectedSegmentTintColor" systemColor="linkColor"/>
+                                <connections>
+                                    <action selector="segmentedDegisimControl:" destination="BYZ-38-t0r" eventType="valueChanged" id="I8H-DX-Oic"/>
+                                </connections>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ud8-q2-sPa">
+                                <rect key="frame" x="159" y="530" width="75" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="tikla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dYy-52-OiC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zuQ-h8-54b" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="146" id="9Ui-eX-bcZ"/>
+                            <constraint firstItem="Ud8-q2-sPa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Dl7-9n-wYD"/>
+                            <constraint firstItem="Ud8-q2-sPa" firstAttribute="top" secondItem="oDa-vg-Is6" secondAttribute="bottom" constant="128" id="FCL-Ef-4aU"/>
+                            <constraint firstItem="zuQ-h8-54b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Oke-Rs-eA4"/>
+                            <constraint firstItem="oDa-vg-Is6" firstAttribute="top" secondItem="zuQ-h8-54b" secondAttribute="bottom" constant="135" id="QTT-7a-dTv"/>
+                            <constraint firstItem="oDa-vg-Is6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZQb-HL-TB5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="segmentedControl" destination="oDa-vg-Is6" id="CZc-ZW-nNj"/>
+                        <outlet property="uiSwitch" destination="zuQ-h8-54b" id="k0w-Ia-Qi5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="73" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tertiarySystemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

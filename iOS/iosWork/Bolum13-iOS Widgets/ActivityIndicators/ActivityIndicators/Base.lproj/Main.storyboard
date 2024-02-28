@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ActivityIndicators" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="ILx-q3-8xa">
+                                <rect key="frame" x="178" y="218" width="37" height="37"/>
+                                <color key="color" red="0.96901685000000004" green="0.018955758100000001" blue="0.59474353310000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </activityIndicatorView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ddP-jO-fWO">
+                                <rect key="frame" x="149.33333333333334" y="367" width="94.333333333333343" height="50.666666666666686"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Başla">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="basla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j1M-El-rcZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8p7-ZQ-Wec">
+                                <rect key="frame" x="161.33333333333334" y="477.66666666666669" width="70.666666666666657" height="50.000000000000057"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Dur">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dur:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L79-MT-orr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ILx-q3-8xa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1bj-gU-FXp"/>
+                            <constraint firstItem="ILx-q3-8xa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="159" id="4M9-h9-ayn"/>
+                            <constraint firstItem="ddP-jO-fWO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BTa-Mg-0aa"/>
+                            <constraint firstItem="ddP-jO-fWO" firstAttribute="top" secondItem="ILx-q3-8xa" secondAttribute="bottom" constant="112" id="Jwe-rD-cEt"/>
+                            <constraint firstItem="8p7-ZQ-Wec" firstAttribute="top" secondItem="ddP-jO-fWO" secondAttribute="bottom" constant="60" id="Lm8-N7-Tue"/>
+                            <constraint firstItem="8p7-ZQ-Wec" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uTf-Zc-br7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="indicator" destination="ILx-q3-8xa" id="uUa-bq-tzT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="67.938931297709928" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

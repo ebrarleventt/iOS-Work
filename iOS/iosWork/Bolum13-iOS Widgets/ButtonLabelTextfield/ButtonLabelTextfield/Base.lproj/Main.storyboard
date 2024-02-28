@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ButtonLabelTextfield" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Merhaba" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DM0-dE-Yao">
+                                <rect key="frame" x="9" y="89" width="375" height="119.66666666666669"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <color key="textColor" red="0.62555962210000005" green="0.10720667270000001" blue="0.86078912019999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Yaziniz" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="l94-Je-Oq2">
+                                <rect key="frame" x="20" y="308.66666666666669" width="353" height="45.666666666666686"/>
+                                <color key="textColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HhV-RB-I3J">
+                                <rect key="frame" x="159" y="479.66666666666669" width="75" height="44.000000000000057"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Tikla">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="tikla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3YR-nM-OKr"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="64V-xV-Gus">
+                                <rect key="frame" x="38" y="216" width="317" height="58"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="l94-Je-Oq2" firstAttribute="top" secondItem="64V-xV-Gus" secondAttribute="bottom" constant="34.670000000000002" id="3rP-mZ-53g"/>
+                            <constraint firstItem="HhV-RB-I3J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="58E-hN-AVQ"/>
+                            <constraint firstItem="64V-xV-Gus" firstAttribute="top" secondItem="DM0-dE-Yao" secondAttribute="bottom" constant="7.3300000000000001" id="834-kl-iQ9"/>
+                            <constraint firstItem="DM0-dE-Yao" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="BGZ-gz-ZC5"/>
+                            <constraint firstItem="64V-xV-Gus" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="38" id="If1-hO-gjZ"/>
+                            <constraint firstItem="HhV-RB-I3J" firstAttribute="top" secondItem="l94-Je-Oq2" secondAttribute="bottom" constant="125.33" id="Ivu-jz-yaW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="64V-xV-Gus" secondAttribute="trailing" constant="38" id="Oaz-cw-yIX"/>
+                            <constraint firstItem="l94-Je-Oq2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Woy-Q9-iRz"/>
+                            <constraint firstItem="DM0-dE-Yao" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="egk-n7-8nh"/>
+                            <constraint firstItem="l94-Je-Oq2" firstAttribute="top" secondItem="DM0-dE-Yao" secondAttribute="bottom" constant="100" id="h8G-HW-s0z"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="l94-Je-Oq2" secondAttribute="trailing" constant="20" id="qA8-cD-CW3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="etiket" destination="DM0-dE-Yao" id="1wo-PM-5d4"/>
+                        <outlet property="textField" destination="l94-Je-Oq2" id="v4d-Sw-amq"/>
+                        <outlet property="textview" destination="64V-xV-Gus" id="uIB-c1-fXA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="49.618320610687022" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
